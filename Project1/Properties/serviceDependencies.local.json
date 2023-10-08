@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user",
+      "dynamicId": null
+    },
+    "secrets2": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/pysieckeyvault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri"
+    },
+    "mssql1": {
+      "secretStore": "AzureKeyVault",
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:pysiec",
+      "dynamicId": null
+    }
+  }
+}

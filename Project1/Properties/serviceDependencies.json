@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets",
+      "dynamicId": null
+    },
+    "secrets2": {
+      "type": "secrets",
+      "connectionId": "VaultUri"
+    },
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:pysiec",
+      "dynamicId": null
+    }
+  }
+}
